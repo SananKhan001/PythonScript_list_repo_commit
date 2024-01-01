@@ -1,0 +1,65 @@
+==========user : 1=========
+id : 111203950
+user : frost768
+commit id : 9b3c1ffa286431abfdd7291206e526921048a385
+message : Could you explain why?
+==========user : 2=========
+id : 111204476
+user : mrjvs
+commit id : 9b3c1ffa286431abfdd7291206e526921048a385
+message : > Could you explain why?
+
+The video tester is a great way to see if a potential provider can actually work in production.
+Some provider do referrer blocking or do cors headers. and quickly going to movie-web.app/dev/video is super easy in comparison to spinning up a local development server just to see if a url would work.
+
+==========user : 3=========
+id : 111205178
+user : frost768
+commit id : 9b3c1ffa286431abfdd7291206e526921048a385
+message : but doesnt this contradict the whole purpose of hiding them in production?
+==========user : 4=========
+id : 111205306
+user : mrjvs
+commit id : 9b3c1ffa286431abfdd7291206e526921048a385
+message : > but doesnt this contradict the whole purpose of hiding them in production?
+
+we hid them for preventing proxy abuse, the video player itself doesn't do any proxy requests.
+The other provider dev routes are hidden in production still, just the video tester isnt.
+==========user : 5=========
+id : 111205584
+user : frost768
+commit id : 9b3c1ffa286431abfdd7291206e526921048a385
+message : Ah, yes my bad. Totally forgot it.
+==========user : 6=========
+id : 133747348
+user : d3vAdrian
+commit id : 9f7330fc5b8a28bda7c03fa57d5268e1b2534ad9
+message : Yoo mrjvs
+==========user : 7=========
+id : 135205418
+user : Mycroft-47
+commit id : 6766337fdb9c81bc9eeb9b964998f0bf6166bfba
+message : I have submitted the [Arabic translation](https://weblate.movie-web.app/projects/movie-web/website/ar/) on Weblate. Kindly, once those changes are committed, assign Arabic to the following country code ["ma"](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MA).
+
+In src/assets/languages.ts, please add the following line:
+import ar from "@/assets/locales/ar.json";
+
+Additionally, in src/components/FlagIcon.tsx, include:
+ar: "ma"
+in countryOverrides
+==========user : 8=========
+id : 135901141
+user : ASKHT
+commit id : e9aee9e7e808c358a79e3c464278572cd412804b
+message : Has this issue been resolved, as the flag of Nepal now also appears to be incorrect?
+
+==========user : 9=========
+id : 135936337
+user : baiming121
+commit id : 96ae895012882633cfc69c68ee5b46eb0f57e979
+message : $ Not Readable $
+==========user : 10=========
+id : 135978217
+user : binaryoverload
+commit id : 1573077f77b8b13e6e34e8804a8934401b6512e1
+message : $ Not Readable $
